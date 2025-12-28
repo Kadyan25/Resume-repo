@@ -47,7 +47,7 @@ function App() {
               >
                 LinkedIn
               </a>
-              <a className="button button-filled" href="/Mohit_Kadian_Resume.pdf">
+              <a className="button button-filled" href="/Mohit_Resume.pdf">
                 Download Resume
               </a>
             </div>
