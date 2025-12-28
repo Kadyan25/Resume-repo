@@ -7,7 +7,7 @@ export const profile = {
   linkedin: "www.linkedin.com/in/mohit-kdyn",
   github: "https://github.com/Kadyan25",
   summary: `
-Full‑stack developer (B.Tech CSE, Chandigarh University, 2023) with strong Core Java, DSA, Spring Boot, React/Next.js and real project experience. Built and deployed chat, e‑commerce and client apps using Docker, Render and Vercel with AI‑assisted development.
+Full‑stack developer (B.Tech CSE, Chandigarh University, 2023) with strong Core Java, DSA, Spring Boot, React/Next.js and real project experience. Comfortable reading developer documentation and integrating REST APIs, third‑party services and auth flows. Built and deployed a real‑time chat app with authentication and Spring Security, along with several small but complete projects on GitHub that show practical understanding of backend, frontend and deployment. Have also used n8n to design and build automation flows (APIs, webhooks, notifications) to connect different tools, using AI assistance mainly for boilerplate.
   `.trim()
 };
 
