@@ -116,7 +116,7 @@ export const projects = [
     duration: "4 weeks",
     description:
       "Responsive React e‑commerce UI where users browse products, manage cart items and complete a mock checkout flow.",
-    liveUrl: "busybuy25.netlify.app",
+    liveUrl: "https://busybuy25.netlify.app/",
     codeUrl: "https://github.com/Kadyan25/Busy-Buy"
   },
   {
