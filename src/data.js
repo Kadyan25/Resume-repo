@@ -4,7 +4,7 @@ export const profile = {
   location: "Rohtak, India",
   phone: "+91 7988334269",
   email: "19bcs1615@gmail.com",
-  linkedin: "www.linkedin.com/in/mohit-kdyn",
+  linkedin: "https://www.linkedin.com/in/mohit-kdyn/",
   github: "https://github.com/Kadyan25",
   summary: `
 Full‑stack developer (B.Tech CSE, Chandigarh University, 2023) with strong Core Java, DSA, Spring Boot, React/Next.js and real project experience. Comfortable reading developer documentation and integrating REST APIs, third‑party services and auth flows. Built and deployed a real‑time chat app with authentication and Spring Security, along with several small but complete projects on GitHub that show practical understanding of backend, frontend and deployment. Have also used n8n to design and build automation flows (APIs, webhooks, notifications) to connect different tools, using AI assistance mainly for boilerplate.
@@ -17,6 +17,7 @@ export const skills = {
     "Spring Boot",
     "Spring MVC",
     "Spring Data JPA",
+    "Spring Security",
     "REST APIs",
     "MySQL"
   ],
@@ -65,9 +66,9 @@ export const experience = [
     location: "Rohtak / Remote",
     description: [
       "Built and deployed full‑stack apps (chat, e‑commerce, portfolio) using Java, Spring Boot, React/Next.js and Docker.",
-      "Used AI tools (Perplexity) for boilerplate while focusing on architecture, debugging and custom logic.",
       "Handled end‑to‑end flow: requirements, implementation, deployment and basic maintenance.",
       "Maintained many small projects on GitHub (APIs, UIs, experiments) that demonstrate consistent hands‑on practice and ability to take features from idea to working code.",
+      "Used AI tools to speed up routine code and documentation, enabling faster delivery while maintaining full ownership of system design and core implementation."
     ]
   }
 ];
@@ -111,7 +112,8 @@ export const projects = [
     tech: [
       "React.js",
       "JavaScript",
-      "CSS"
+      "CSS",
+      "HTML"
     ],
     duration: "4 weeks",
     description:
@@ -124,11 +126,16 @@ export const projects = [
     tech: [
       "Full‑stack",
       "Fintech",
-      "ML integration"
+      "ML integration",
+      "React.js",
+      "HTML",
+      "CSS",
+      "Python",
+      "Java"
     ],
     duration: "90 days (internship)",
     description:
-      "Contributed to a B2B fintech web app: implemented backend APIs, data models and UI components around invoice/transaction workflows with existing ML models.",
+      "During the Highway to HighRadius Product Essentials internship, I worked as a full-stack developer building and deploying an AI-enabled Fintech B2B cloud application end to end. From January 2022 to April 2022, I contributed across the product development lifecycle, including understanding user requirements, designing the user experience, and implementing both frontend interface components and backend architecture. I also gained experience in designing appropriate data models and integrating machine learning models into the application, strengthening my understanding of how real-world product engineering combines UX, data, and AI-driven functionality.",
     liveUrl: "",
     codeUrl: ""
   }
