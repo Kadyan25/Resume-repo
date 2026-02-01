@@ -7,7 +7,7 @@ export const profile = {
   linkedin: "https://www.linkedin.com/in/mohit-kdyn/",
   github: "https://github.com/Kadyan25",
   summary: `
-Full‑stack developer (B.Tech CSE, Chandigarh University, 2023) with strong Core Java, DSA, Spring Boot, React/Next.js and real project experience. Comfortable reading developer documentation and integrating REST APIs, third‑party services and auth flows. Built and deployed a real‑time chat app with authentication and Spring Security, along with several small but complete projects on GitHub that show practical understanding of backend, frontend and deployment. Have also used n8n to design and build automation flows (APIs, webhooks, notifications) to connect different tools, using AI assistance mainly for boilerplate.
+Full‑stack developer (B.Tech CSE, Chandigarh University, 2023) with strong Core Java, DSA, Spring Boot, React/Next.js and real project experience. Comfortable reading developer documentation and integrating REST APIs, third‑party services, auth flows and AI APIs. Built and deployed full‑stack apps including a real‑time chat app with authentication and an AI‑powered counseling platform with agentic tool calling. Maintained several small but complete projects on GitHub that show practical understanding of backend, frontend and deployment. Have also used n8n to design and build automation flows (APIs, webhooks, notifications) to connect different tools, using AI assistance mainly for boilerplate.
   `.trim()
 };
 
@@ -65,7 +65,8 @@ export const experience = [
     duration: "Ongoing",
     location: "Rohtak / Remote",
     description: [
-      "Built and deployed full‑stack apps (chat, e‑commerce, portfolio) using Java, Spring Boot, React/Next.js and Docker.",
+      "Built and deployed full‑stack apps (chat, AI counseling platform, portfolio) using Java, Spring Boot, React/Next.js, PostgreSQL and Docker.",
+      "Implemented agentic AI with tool calling where the model autonomously executes database operations via structured JSON output.",
       "Handled end‑to‑end flow: requirements, implementation, deployment and basic maintenance.",
       "Maintained many small projects on GitHub (APIs, UIs, experiments) that demonstrate consistent hands‑on practice and ability to take features from idea to working code.",
       "Used AI tools to speed up routine code and documentation, enabling faster delivery while maintaining full ownership of system design and core implementation."
@@ -74,6 +75,28 @@ export const experience = [
 ];
 
 export const projects = [
+  {
+    name: "AI Counsellor",
+    tech: [
+      "Spring Boot",
+      "Java",
+      "Next.js",
+      "React",
+      "TypeScript",
+      "PostgreSQL",
+      "JWT",
+      "Docker",
+      "AI Agents",
+      "Tool Calling",
+      "Gemini API",
+      "Tailwind CSS"
+    ],
+    duration: "4 weeks",
+    description:
+      "Full‑stack AI‑powered university admissions counseling platform with stage‑based decision flow. Implements agentic AI with tool calling—AI autonomously performs database actions (shortlist/lock/unlock universities, create tasks) via structured JSON output. Features multi‑provider AI integration (Gemini, OpenRouter, Perplexity), strict hallucination prevention with validation rules, JWT authentication, conversation history storage, and modern glassmorphism UI with Tailwind CSS v4.",
+    liveUrl: "https://ai-counsellor-umber.vercel.app",
+    codeUrl: "https://github.com/Kadyan25/ai_counsellor"
+  },
   {
     name: "Basic Chat App",
     tech: [
@@ -91,21 +114,6 @@ export const projects = [
       "Full‑stack real‑time chat application with signup/login, public rooms and private one‑to‑one messaging, containerized with Docker and deployed on Render.",
     liveUrl: "https://chatapp-dylb.onrender.com/",
     codeUrl: "https://github.com/Kadyan25/ChatApp"
-  },
-  {
-    name: "E‑commerce Backend",
-    tech: [
-      "Spring Boot",
-      "Java",
-      "Spring Data JPA",
-      "REST APIs",
-      "MySQL"
-    ],
-    duration: "31 days",
-    description:
-      "E‑commerce backend exposing REST APIs for products, cart and orders with layered architecture, validation and centralized exception handling.",
-    liveUrl: "",
-    codeUrl: ""
   },
   {
     name: "Busy Buy (E‑commerce UI)",
@@ -135,7 +143,7 @@ export const projects = [
     ],
     duration: "90 days (internship)",
     description:
-      "During the Highway to HighRadius Product Essentials internship, I worked as a full-stack developer building and deploying an AI-enabled Fintech B2B cloud application end to end. From January 2022 to April 2022, I contributed across the product development lifecycle, including understanding user requirements, designing the user experience, and implementing both frontend interface components and backend architecture. I also gained experience in designing appropriate data models and integrating machine learning models into the application, strengthening my understanding of how real-world product engineering combines UX, data, and AI-driven functionality.",
+      "During the Highway to HighRadius Product Essentials internship, I worked as a full-stack developer building and deploying an AI-enabled Fintech B2B cloud application end to end. From January 2022 to April 2022, I contributed across the product development lifecycle, including understanding user requirements, designing the user experience, and implementing both frontend interface components and backend architecture. I also gained experience in designing appropriate data models and integrating machine learning models into the application, strengthening my understanding of how real-world product engineering combines UX, data, and AI-driven functionality.",
     liveUrl: "",
     codeUrl: ""
   }
@@ -206,4 +214,3 @@ export const roadmap = {
   link: "",
   linkLabel: ""
 };
-
