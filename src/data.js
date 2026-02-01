@@ -116,6 +116,20 @@ export const projects = [
     codeUrl: "https://github.com/Kadyan25/ChatApp"
   },
   {
+    name: "Busy Buy (E‑commerce UI)",
+    tech: [
+      "React.js",
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ],
+    duration: "4 weeks",
+    description:
+      "Responsive React e‑commerce UI where users browse products, manage cart items and complete a mock checkout flow.",
+    liveUrl: "https://busybuy25.netlify.app/",
+    codeUrl: "https://github.com/Kadyan25/Busy-Buy"
+  },
+  {
     name: "AI‑Enabled B2B Fintech App",
     tech: [
       "Full‑stack",
