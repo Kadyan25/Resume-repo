@@ -19,7 +19,8 @@ export const skills = {
     "Spring Data JPA",
     "Spring Security",
     "REST APIs",
-    "MySQL"
+    "MySQL",
+    "Python"
   ],
   Frontend: [
     "React.js",
@@ -40,10 +41,12 @@ export const skills = {
     "Render",
     "Vercel",
     "n8n",
-    "Netlify"
-  ],
-  Other: [
-    "Python (reading & scripting)"
+    "Netlify",
+    "MySQL",
+    "Lovable",
+    "Bolt.new",
+    "Postman"
+
   ]
 };
 
