@@ -1,154 +1,233 @@
 export const profile = {
-  name: "Mohit Kadian",
-  title: "Java & Full‑Stack Developer",
-  location: "Rohtak, India",
+  name: "Mohit Kadyan",
+  title: "Full-Stack Developer · AI-Integrated Applications · TypeScript · Java · Python",
+  location: "Rohtak, Haryana (Open to Remote & Delhi NCR)",
   phone: "+91 7988334269",
   email: "19bcs1615@gmail.com",
-  linkedin: "https://www.linkedin.com/in/mohit-kdyn/",
+  linkedin: "https://linkedin.com/in/mohit-kdyn",
   github: "https://github.com/Kadyan25",
-  summary: `
-Full‑stack developer (B.Tech CSE, Chandigarh University, 2023) with strong Core Java, DSA, Spring Boot, React/Next.js and real project experience. Comfortable reading developer documentation and integrating REST APIs, third‑party services, auth flows and AI APIs. Built and deployed full‑stack apps including a real‑time chat app with authentication and an AI‑powered counseling platform with agentic tool calling. Maintained several small but complete projects on GitHub that show practical understanding of backend, frontend and deployment. Have also used n8n to design and build automation flows (APIs, webhooks, notifications) to connect different tools, using AI assistance mainly for boilerplate.
-  `.trim()
+  portfolio: "https://mohit-resume20.netlify.app",
+  summary: `Full-Stack Developer with production experience shipping complete web applications — from backend APIs and database architecture to responsive frontends and cloud deployment. Independently built and launched two live SaaS products: a unified marketing analytics dashboard and an AI-powered email client. Experienced with modern TypeScript stack (Next.js, Prisma, PostgreSQL) and Java/Spring Boot backend systems. Integrates AI (Claude, Gemini) as a product feature. Uses AI-assisted development (Claude Code, Cursor) as a core workflow multiplier to ship faster without sacrificing architectural ownership.`
 };
 
 export const skills = {
-  Backend: [
-    "Core Java",
-    "Spring Boot",
-    "Spring MVC",
-    "Spring Data JPA",
-    "Spring Security",
-    "REST APIs",
-    "MySQL",
-    "Python"
-  ],
   Frontend: [
+    "Next.js 14",
     "React.js",
-    "Next.js",
-    "JavaScript (ES6+)",
-    "HTML",
-    "CSS"
+    "TypeScript",
+    "Tailwind CSS v4",
+    "shadcn/ui",
+    "PWA",
+    "Service Workers"
   ],
-  Core: [
-    "Data Structures & Algorithms (Java)",
-    "Object Oriented Programming",
-    "REST API design & integration"
+  Backend: [
+    "Java",
+    "Spring Boot",
+    "Python",
+    "FastAPI",
+    "Node.js",
+    "REST APIs",
+    "WebSockets",
+    "Background Jobs"
   ],
-  Tools: [
-    "Git",
-    "GitHub",
+  Databases: [
+    "PostgreSQL",
+    "MySQL",
+    "Prisma ORM",
+    "Redis",
+    "SQLite",
+    "Spring Data JPA"
+  ],
+  "Auth & Security": [
+    "NextAuth v5",
+    "JWT",
+    "OAuth2 (Google, Meta, TikTok, LinkedIn)",
+    "AES-256 Encryption"
+  ],
+  "AI Integration": [
+    "Claude API (Sonnet/Haiku)",
+    "Gemini API",
+    "OpenAI API",
+    "LangChain",
+    "Tool/Function Calling"
+  ],
+  Testing: [
+    "Vitest (80+ unit tests)",
+    "Playwright E2E",
+    "TypeScript strict mode"
+  ],
+  DevOps: [
     "Docker",
+    "Railway",
     "Render",
     "Vercel",
-    "n8n",
     "Netlify",
-    "MySQL",
-    "Lovable",
-    "Bolt.new",
-    "Postman"
-
+    "Git/GitHub"
+  ],
+  Automation: [
+    "n8n",
+    "GoHighLevel CRM",
+    "Vapi (Voice AI)",
+    "Apify",
+    "Playwright Scraping"
   ]
 };
 
 export const experience = [
   {
-    role: "Full‑Stack Intern",
-    company: "HighRadius",
-    duration: "90 days",
-    location: "Remote / Hybrid",
+    role: "Full-Stack Developer & AI Engineer",
+    company: "Contract (Remote)",
+    duration: "Feb 2026 – Present",
+    location: "Remote",
     description: [
-      "Worked on a cloud‑based B2B fintech web application for enterprise clients.",
-      "Implemented REST APIs, data models and reusable UI components in a full‑stack environment.",
-      "Collaborated with engineers on code reviews, clean code practices."
+      "Independently built and launched Onelytics — a multi-tenant marketing analytics SaaS with OAuth integrations across 6 platforms (Google Analytics, Ads, Search Console, Meta, TikTok, LinkedIn), AES-256 token encryption, Redis caching, role-based workspace management, and AI-powered summaries via Claude API. Deployed on Railway.",
+      "Built production SEO audit application using FastAPI, async Playwright crawler, background job queue, PDF/CSV report export, and Docker deployment — auditing 200+ pages per run with JS-rendered SPA support.",
+      "Designed n8n marketing automation pipelines and LLM-integrated content workflows for client delivery."
     ]
   },
   {
-    role: "Self‑Driven Projects",
-    company: "Personal Work",
-    duration: "Ongoing",
-    location: "Rohtak / Remote",
+    role: "Backend & Integration Engineer",
+    company: "Contract (Remote + On-site)",
+    duration: "Oct 2025 – Feb 2026",
+    location: "Remote + On-site",
     description: [
-      "Built and deployed full‑stack apps (chat, AI counseling platform, portfolio) using Java, Spring Boot, React/Next.js, PostgreSQL and Docker.",
-      "Implemented agentic AI with tool calling where the model autonomously executes database operations via structured JSON output.",
-      "Handled end‑to‑end flow: requirements, implementation, deployment and basic maintenance.",
-      "Maintained many small projects on GitHub (APIs, UIs, experiments) that demonstrate consistent hands‑on practice and ability to take features from idea to working code.",
-      "Used AI tools to speed up routine code and documentation, enabling faster delivery while maintaining full ownership of system design and core implementation."
+      "Built backend API infrastructure for voice AI systems using Vapi — dynamic conversation flows, intent detection, CRM action triggers, and missed-call recovery pipelines integrated with GoHighLevel.",
+      "Delivered client-facing automation systems connecting multiple third-party APIs and services, translating business requirements into production-ready technical solutions independently.",
+      "Built reusable integration templates and webhook-driven workflows reducing client onboarding time significantly."
+    ]
+  },
+  {
+    role: "Full-Stack Developer Intern",
+    company: "HighRadius",
+    duration: "Jan 2022 – Apr 2022",
+    location: "Remote / Hybrid",
+    description: [
+      "Developed and tested REST APIs using Spring Boot for a cloud-based B2B fintech platform — data models, business logic, and database operations.",
+      "Built reusable React components following design specifications, contributing to sprint reviews and feature delivery in an Agile team."
     ]
   }
 ];
 
 export const projects = [
   {
-    name: "AI Counsellor",
+    name: "Inboxd — AI-First Universal Email Client",
+    tech: [
+      "Next.js 14",
+      "TypeScript",
+      "PostgreSQL",
+      "Prisma",
+      "Claude API",
+      "Gmail REST API",
+      "IMAP",
+      "PWA",
+      "Railway"
+    ],
+    duration: "Live",
+    description:
+      "Unified inbox across Gmail, IMAP (Yahoo/AOL), and Outlook — Claude Sonnet powers AI email summaries, 3-strategy reply drafts, and priority triage (URGENT/NORMAL/LOW/NOISE) on every sync. Full PWA with service worker offline shell, installable on mobile. AES-256 encrypted OAuth token storage, full compose/reply/forward flow with quote threading. 80 Vitest unit tests + Playwright E2E test suite.",
+    liveUrl: "https://inboxd-production-077c.up.railway.app",
+    codeUrl: "https://github.com/Kadyan25/Inboxd"
+  },
+  {
+    name: "Onelytics — Unified Marketing Analytics Dashboard",
+    tech: [
+      "Next.js 14",
+      "TypeScript",
+      "PostgreSQL",
+      "Prisma",
+      "Redis",
+      "Claude API",
+      "NextAuth",
+      "Railway"
+    ],
+    duration: "Live",
+    description:
+      "Multi-tenant SaaS connecting Google Analytics, Google Ads, Search Console, Meta Ads, TikTok Ads, LinkedIn Ads, and WordPress into a single workspace with AI-powered summaries via Claude Haiku. Role-based workspace management (Owner/Admin/Member/Viewer), invite system with expiring tokens, AES-256-GCM encrypted OAuth token storage, 6-hour API response caching via Redis.",
+    liveUrl: "https://onelytics-production-693f.up.railway.app",
+    codeUrl: "https://github.com/Mohit02026/onelytics"
+  },
+  {
+    name: "AI Counsellor — University Admissions Platform",
     tech: [
       "Spring Boot",
-      "Java",
       "Next.js",
-      "React",
-      "TypeScript",
       "PostgreSQL",
       "JWT",
       "Docker",
-      "AI Agents",
-      "Tool Calling",
       "Gemini API",
-      "Tailwind CSS"
+      "OpenRouter",
+      "Perplexity",
+      "Tailwind CSS v4"
     ],
-    duration: "4 weeks",
+    duration: "Live",
     description:
-      "Full‑stack AI‑powered university admissions counseling platform with stage‑based decision flow. Implements agentic AI with tool calling—AI autonomously performs database actions (shortlist/lock/unlock universities, create tasks) via structured JSON output. Features multi‑provider AI integration (Gemini, OpenRouter, Perplexity), strict hallucination prevention with validation rules, JWT authentication, conversation history storage, and modern glassmorphism UI with Tailwind CSS v4.",
+      "Full-stack agentic AI platform — AI performs real database operations (shortlist/lock universities, create tasks) via validated JSON tool calling against live DB records. Multi-provider AI (Gemini, OpenRouter, Perplexity) with automatic fallback and hallucination prevention. Stage-based onboarding flow, conversation history, glassmorphism UI.",
     liveUrl: "https://ai-counsellor-umber.vercel.app",
     codeUrl: "https://github.com/Kadyan25/ai_counsellor"
   },
   {
-    name: "Basic Chat App",
+    name: "Real-Time Chat Application",
     tech: [
       "Spring Boot",
-      "Java",
-      "WebSockets",
-      "JPA",
-      "JWT",
+      "React",
+      "WebSocket",
+      "Spring Security",
       "MySQL",
       "Docker",
       "Render"
     ],
-    duration: "4 weeks",
+    duration: "Live",
     description:
-      "Full‑stack real‑time chat application with signup/login, public rooms and private one‑to‑one messaging, containerized with Docker and deployed on Render.",
-    liveUrl: "https://chatapp-dylb.onrender.com/",
+      "Full-stack real-time chat with public rooms and private one-to-one messaging — WebSocket protocol, Spring Security JWT auth, user online status indicators. Containerised with Docker, deployed on Render with persistent message history.",
+    liveUrl: "https://chatapp-dylb.onrender.com",
     codeUrl: "https://github.com/Kadyan25/ChatApp"
   },
   {
-    name: "Busy Buy (E‑commerce UI)",
+    name: "SEO Audit Tool",
     tech: [
-      "React.js",
-      "JavaScript",
-      "CSS",
-      "HTML"
+      "Python",
+      "FastAPI",
+      "Playwright",
+      "Async httpx",
+      "Docker",
+      "Google PageSpeed API",
+      "SQLite"
     ],
-    duration: "4 weeks",
+    duration: "Production",
     description:
-      "Responsive React e‑commerce UI where users browse products, manage cart items and complete a mock checkout flow.",
-    liveUrl: "https://busybuy25.netlify.app/",
-    codeUrl: "https://github.com/Kadyan25/Busy-Buy"
+      "Production-grade crawler auditing technical SEO — broken links, meta tags, heading structure, page speed scores, JS-rendered SPA pages, and sitemap validation. Background job queue with SQLite state management, concurrent multi-site audits, client-facing PDF reports and internal CSV/JSON exports. Fully Dockerised.",
+    liveUrl: "",
+    codeUrl: "https://github.com/Kadyan25/Seo-audit"
   },
   {
-    name: "AI‑Enabled B2B Fintech App",
+    name: "Automation Flows with n8n",
     tech: [
-      "Full‑stack",
-      "Fintech",
-      "ML integration",
-      "React.js",
-      "HTML",
-      "CSS",
-      "Python",
-      "Java"
+      "n8n",
+      "REST APIs",
+      "Webhooks",
+      "GoHighLevel CRM",
+      "Vapi (Voice AI)",
+      "LLM Workflows"
     ],
-    duration: "90 days (internship)",
+    duration: "Ongoing",
     description:
-      "During the Highway to HighRadius Product Essentials internship, I worked as a full-stack developer building and deploying an AI-enabled Fintech B2B cloud application end to end. From January 2022 to April 2022, I contributed across the product development lifecycle, including understanding user requirements, designing the user experience, and implementing both frontend interface components and backend architecture. I also gained experience in designing appropriate data models and integrating machine learning models into the application, strengthening my understanding of how real-world product engineering combines UX, data, and AI-driven functionality.",
+      "Designed and delivered n8n marketing automation pipelines and LLM-integrated content workflows for clients. Built voice AI systems using Vapi with dynamic conversation flows, intent detection, CRM action triggers, and missed-call recovery pipelines. Created reusable webhook-driven integration templates reducing client onboarding time significantly.",
     liveUrl: "",
     codeUrl: ""
+  },
+  {
+    name: "Busy Buy — E-Commerce Frontend",
+    tech: [
+      "React.js",
+      "Tailwind CSS",
+      "REST API",
+      "Responsive Design"
+    ],
+    duration: "Live",
+    description:
+      "Responsive e-commerce UI with product listing, filtering, cart, and checkout flow. REST API integration with pagination, search, and category filtering.",
+    liveUrl: "https://busybuy25.netlify.app",
+    codeUrl: "https://github.com/Kadyan25/Busy-Buy"
   }
 ];
 
@@ -161,12 +240,12 @@ export const education = [
   {
     degree: "12th – CBSE",
     year: "2018",
-    institute: "B.R.P.School,Dujana"
+    institute: "B.R.P. School, Dujana"
   },
   {
     degree: "10th – CBSE",
     year: "2015",
-    institute: "B.R.P.School,Dujana"
+    institute: "B.R.P. School, Dujana"
   }
 ];
 
@@ -198,7 +277,7 @@ export const certifications = [
     ]
   },
   {
-    name: "Full‑Stack Internship Certificate",
+    name: "Full-Stack Internship Certificate",
     issuer: "HighRadius",
     year: "2022",
     links: [
@@ -210,10 +289,9 @@ export const certifications = [
   }
 ];
 
-
 export const roadmap = {
   text:
-    "Actively upskilling in Docker, Kubernetes, cloud (AWS/GCP) and AI‑assisted development. Upcoming months focus: production‑grade Java/Spring Boot microservices, React/Next.js frontends, DevOps (CI/CD, monitoring) and AI integrations for real client projects.",
+    "Actively upskilling in Docker, Kubernetes, cloud (AWS/GCP) and AI-assisted development. Upcoming focus: production-grade Java/Spring Boot microservices, React/Next.js frontends, DevOps (CI/CD, monitoring) and AI integrations for real client projects.",
   link: "",
   linkLabel: ""
 };
