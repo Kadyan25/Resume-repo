@@ -111,6 +111,7 @@ export const experience = [
 export const projects = [
   {
     name: "Inboxd — AI-First Universal Email Client",
+    image: "inboxd.jpg",
     tech: [
       "Next.js 14",
       "TypeScript",
@@ -130,6 +131,7 @@ export const projects = [
   },
   {
     name: "Onelytics — Unified Marketing Analytics Dashboard",
+    image: "onelytics.png",
     tech: [
       "Next.js 14",
       "TypeScript",
@@ -148,6 +150,7 @@ export const projects = [
   },
   {
     name: "AI Counsellor — University Admissions Platform",
+    image: "ai-counsellor.jpg",
     tech: [
       "Spring Boot",
       "Next.js",
@@ -167,6 +170,7 @@ export const projects = [
   },
   {
     name: "Real-Time Chat Application",
+    image: "chatapp.jpg",
     tech: [
       "Spring Boot",
       "React",
@@ -184,6 +188,7 @@ export const projects = [
   },
   {
     name: "SEO Audit Tool",
+    image: "Sep-audit.jpg",
     tech: [
       "Python",
       "FastAPI",
@@ -201,6 +206,7 @@ export const projects = [
   },
   {
     name: "Automation Flows with n8n",
+    image: "n8n.jpg",
     tech: [
       "n8n",
       "REST APIs",
@@ -217,6 +223,7 @@ export const projects = [
   },
   {
     name: "Busy Buy — E-Commerce Frontend",
+    image: "busybuy.jpg",
     tech: [
       "React.js",
       "Tailwind CSS",
