@@ -222,6 +222,26 @@ export const projects = [
     codeUrl: ""
   },
   {
+    name: "Compass Registered Agent — LLC Formation Platform",
+    image: "compass.jpg",
+    tech: [
+      "Next.js 14",
+      "TypeScript",
+      "PostgreSQL",
+      "Prisma",
+      "Stripe",
+      "NextAuth v5",
+      "Cloudflare R2",
+      "GoHighLevel",
+      "Railway"
+    ],
+    duration: "Live",
+    description:
+      "Full-stack client platform for a Florida registered agent service — public LLC formation intake, Stripe checkout, customer portal with document downloads and compliance calendar, and an internal ops workbench for order management and PDF filing sheets. Bidirectional GoHighLevel CRM sync: Compass pushes new orders on payment, GHL stage changes webhook back to Compass. AES-256-GCM encryption, Resend transactional email, Cloudflare R2 document storage.",
+    liveUrl: "https://compassregisteredagent.com",
+    codeUrl: ""
+  },
+  {
     name: "Busy Buy — E-Commerce Frontend",
     image: "busybuy.jpg",
     tech: [
