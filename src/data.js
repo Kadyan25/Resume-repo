@@ -149,6 +149,26 @@ export const projects = [
     codeUrl: "https://github.com/Mohit02026/onelytics"
   },
   {
+    name: "Compass Registered Agent — LLC Formation Platform",
+    image: "compass.jpg",
+    tech: [
+      "Next.js 14",
+      "TypeScript",
+      "PostgreSQL",
+      "Prisma",
+      "Stripe",
+      "NextAuth v5",
+      "Cloudflare R2",
+      "GoHighLevel",
+      "Railway"
+    ],
+    duration: "Live",
+    description:
+      "Full-stack client platform for a Florida registered agent service — public LLC formation intake, Stripe checkout, customer portal with document downloads and compliance calendar, and an internal ops workbench for order management and PDF filing sheets. Bidirectional GoHighLevel CRM sync: Compass pushes new orders on payment, GHL stage changes webhook back to Compass. AES-256-GCM encryption, Resend transactional email, Cloudflare R2 document storage.",
+    liveUrl: "https://compassregisteredagent.com",
+    codeUrl: ""
+  },
+  {
     name: "AI Counsellor — University Admissions Platform",
     image: "ai-counsellor.jpg",
     tech: [
@@ -219,26 +239,6 @@ export const projects = [
     description:
       "Designed and delivered n8n marketing automation pipelines and LLM-integrated content workflows for clients. Built voice AI systems using Vapi with dynamic conversation flows, intent detection, CRM action triggers, and missed-call recovery pipelines. Created reusable webhook-driven integration templates reducing client onboarding time significantly.",
     liveUrl: "",
-    codeUrl: ""
-  },
-  {
-    name: "Compass Registered Agent — LLC Formation Platform",
-    image: "compass.jpg",
-    tech: [
-      "Next.js 14",
-      "TypeScript",
-      "PostgreSQL",
-      "Prisma",
-      "Stripe",
-      "NextAuth v5",
-      "Cloudflare R2",
-      "GoHighLevel",
-      "Railway"
-    ],
-    duration: "Live",
-    description:
-      "Full-stack client platform for a Florida registered agent service — public LLC formation intake, Stripe checkout, customer portal with document downloads and compliance calendar, and an internal ops workbench for order management and PDF filing sheets. Bidirectional GoHighLevel CRM sync: Compass pushes new orders on payment, GHL stage changes webhook back to Compass. AES-256-GCM encryption, Resend transactional email, Cloudflare R2 document storage.",
-    liveUrl: "https://compassregisteredagent.com",
     codeUrl: ""
   },
   {
