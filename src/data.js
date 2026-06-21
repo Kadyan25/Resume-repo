@@ -81,8 +81,11 @@ export const experience = [
     location: "Remote",
     description: [
       "Independently built and launched Onelytics — a multi-tenant marketing analytics SaaS with OAuth integrations across 6 platforms (Google Analytics, Ads, Search Console, Meta, TikTok, LinkedIn), AES-256 token encryption, Redis caching, role-based workspace management, and AI-powered summaries via Claude API. Deployed on Railway.",
-      "Built production SEO audit application using FastAPI, async Playwright crawler, background job queue, PDF/CSV report export, and Docker deployment — auditing 200+ pages per run with JS-rendered SPA support.",
-      "Designed n8n marketing automation pipelines and LLM-integrated content workflows for client delivery."
+      "Built Exchange Four, a full HR/personnel management platform with multi-stage approval workflows, role-based access (Applicant/HR/Executive), CRM sync via signed webhooks, automated document generation, and 13+ end-to-end Playwright test suites.",
+      "Built Compass Registered Agent, a client-facing LLC formation platform with Stripe checkout, document portal, and a stage-based ops workbench with bidirectional CRM sync.",
+      "Built a production SEO audit tool using FastAPI, async Playwright crawler, and Google PageSpeed API — auditing 200+ pages per run with JS-rendered SPA support, background job queue, and PDF/CSV export.",
+      "Designed a 14-workflow n8n automation portfolio covering AI marketing campaign pipelines, B2B lead generation (dual Apify scrapers + email verification), missed-call recovery, GoHighLevel CRM automation, and RAG agent pipelines.",
+      "Developed lead generation systems with dual Apify scrapers, email verification, phone-based deduplication, and Google Sheets export — deployed as production Apify actors."
     ]
   },
   {
