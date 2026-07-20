@@ -7,7 +7,7 @@ export const profile = {
   linkedin: "https://linkedin.com/in/mohit-kdyn",
   github: "https://github.com/Kadyan25",
   portfolio: "https://mohit-resume20.netlify.app",
-  summary: `Full-Stack Developer with production experience shipping complete web applications — from backend APIs and database architecture to responsive frontends and cloud deployment. Independently built and launched two live SaaS products: a unified marketing analytics dashboard and an AI-powered email client. Experienced with modern TypeScript stack (Next.js, Prisma, PostgreSQL) and Java/Spring Boot backend systems. Integrates AI (Claude, Gemini) as a product feature. Uses AI-assisted development (Claude Code, Cursor) as a core workflow multiplier to ship faster without sacrificing architectural ownership.`
+  summary: `Full-Stack Developer with production experience shipping complete web applications — from backend APIs and database architecture to responsive frontends and cloud deployment. Independently built and launched multiple live SaaS products and client platforms. Experienced with modern TypeScript stack (Next.js, Prisma, PostgreSQL) and Java/Spring Boot backend systems. Integrates AI (Claude, Gemini) as a product feature. Practises thorough testing (Vitest, Playwright E2E) to catch bugs early and minimise production issues. Uses AI-assisted development (Claude Code, Cursor) as a core workflow multiplier to ship faster without sacrificing architectural ownership.`
 };
 
 export const skills = {
@@ -52,7 +52,7 @@ export const skills = {
     "Tool/Function Calling"
   ],
   Testing: [
-    "Vitest (80+ unit tests)",
+    "Vitest",
     "Playwright E2E",
     "TypeScript strict mode"
   ],
@@ -113,6 +113,81 @@ export const experience = [
 
 export const projects = [
   {
+    name: "Compass Registered Agent — LLC Formation Platform",
+    image: "compass.jpg",
+    tech: [
+      "Next.js 14",
+      "TypeScript",
+      "PostgreSQL",
+      "Prisma",
+      "Stripe",
+      "NextAuth v5",
+      "Cloudflare R2",
+      "GoHighLevel",
+      "Railway"
+    ],
+    duration: "Live",
+    description:
+      "Full-stack client platform for a Florida registered agent service — public LLC formation intake, Stripe checkout, customer portal with document downloads and compliance calendar, and an internal ops workbench for order management and PDF filing sheets. Bidirectional GoHighLevel CRM sync: Compass pushes new orders on payment, GHL stage changes webhook back to Compass. AES-256-GCM encryption, Resend transactional email, Cloudflare R2 document storage.",
+    liveUrl: "https://compassregisteredagent.com",
+    codeUrl: ""
+  },
+  {
+    name: "Exchange Four — HR & Personnel Management Platform",
+    image: "exchange_four.png",
+    tech: [
+      "Next.js 14",
+      "TypeScript",
+      "PostgreSQL",
+      "Prisma",
+      "NextAuth v5",
+      "GoHighLevel",
+      "Playwright",
+      "Railway"
+    ],
+    duration: "Live",
+    description:
+      "Full-stack HR/personnel management platform with multi-stage approval workflows, role-based access (Applicant/HR/Executive), CRM sync via signed webhooks, automated document generation, and 13+ end-to-end Playwright test suites.",
+    liveUrl: "https://exhange4hr-production.up.railway.app/login",
+    codeUrl: ""
+  },
+  {
+    name: "Collab Docs — Collaborative Document Editor",
+    image: "collab_docs.png",
+    tech: [
+      "Next.js",
+      "TypeScript",
+      "PostgreSQL",
+      "Prisma",
+      "TipTap",
+      "Vitest",
+      "Railway"
+    ],
+    duration: "Live",
+    description:
+      "Collaborative document editor with rich text formatting (bold, italic, headings, lists), role-based sharing (Viewer/Editor), version history with snapshot restore, presence indicators, per-document comment threads, and export to Markdown/PDF.",
+    liveUrl: "https://collab-docs-production-866c.up.railway.app/",
+    codeUrl: ""
+  },
+  {
+    name: "Research Intelligence System — Agentic Wiki",
+    image: "research_intelligence_system.png",
+    tech: [
+      "Python",
+      "FastAPI",
+      "Claude API",
+      "Google Embeddings",
+      "RAG",
+      "PyMuPDF",
+      "Render"
+    ],
+    duration: "Live",
+    description:
+      "Multi-agent AI pipeline that ingests text, PDFs, URLs, images, and CSVs through 7 specialised agents (intake, extraction, RAG search, reasoning, writing, linking, validation) to build a growing cross-linked markdown knowledge base with a dark-theme web UI.",
+    liveUrl: "https://agentic-wiki.onrender.com/",
+    codeUrl: "https://github.com/Kadyan25/agentic-wiki"
+  },
+  {
     name: "Inboxd — AI-First Universal Email Client",
     image: "inboxd.jpg",
     tech: [
@@ -150,26 +225,6 @@ export const projects = [
       "Multi-tenant SaaS connecting Google Analytics, Google Ads, Search Console, Meta Ads, TikTok Ads, LinkedIn Ads, and WordPress into a single workspace with AI-powered summaries via Claude Haiku. Role-based workspace management (Owner/Admin/Member/Viewer), invite system with expiring tokens, AES-256-GCM encrypted OAuth token storage, 6-hour API response caching via Redis.",
     liveUrl: "https://onelytics-production-693f.up.railway.app",
     codeUrl: "https://github.com/Mohit02026/onelytics"
-  },
-  {
-    name: "Compass Registered Agent — LLC Formation Platform",
-    image: "compass.jpg",
-    tech: [
-      "Next.js 14",
-      "TypeScript",
-      "PostgreSQL",
-      "Prisma",
-      "Stripe",
-      "NextAuth v5",
-      "Cloudflare R2",
-      "GoHighLevel",
-      "Railway"
-    ],
-    duration: "Live",
-    description:
-      "Full-stack client platform for a Florida registered agent service — public LLC formation intake, Stripe checkout, customer portal with document downloads and compliance calendar, and an internal ops workbench for order management and PDF filing sheets. Bidirectional GoHighLevel CRM sync: Compass pushes new orders on payment, GHL stage changes webhook back to Compass. AES-256-GCM encryption, Resend transactional email, Cloudflare R2 document storage.",
-    liveUrl: "https://compassregisteredagent.com",
-    codeUrl: ""
   },
   {
     name: "AI Counsellor — University Admissions Platform",
