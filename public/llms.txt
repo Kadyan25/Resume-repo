@@ -1,0 +1,104 @@
+# Mohit Kadyan — Full-Stack Developer & AI Engineer
+
+## Contact
+- Location: Rohtak, Haryana, India (Open to Remote & Delhi NCR)
+- Email: 19bcs1615@gmail.com
+- Phone: +91 7988334269
+- LinkedIn: https://linkedin.com/in/mohit-kdyn
+- GitHub: https://github.com/Kadyan25
+- Portfolio: https://mohit-resume20.netlify.app
+
+## Summary
+Full-Stack Developer with production experience shipping complete web applications — from backend APIs and database architecture to responsive frontends and cloud deployment. Independently built and launched multiple live SaaS products and client platforms. Experienced with modern TypeScript stack (Next.js, Prisma, PostgreSQL) and Java/Spring Boot backend systems. Integrates AI (Claude, Gemini) as a product feature. Practises thorough testing (Vitest, Playwright E2E) to catch bugs early and minimise production issues. Uses AI-assisted development (Claude Code, Cursor) as a core workflow multiplier.
+
+## Skills
+- Frontend: Next.js 14, React.js, TypeScript, Tailwind CSS v4, shadcn/ui, PWA, Service Workers
+- Backend: Java, Spring Boot, Python, FastAPI, Node.js, REST APIs, WebSockets, Background Jobs
+- Databases: PostgreSQL, MySQL, Prisma ORM, Redis, SQLite, Spring Data JPA
+- Auth & Security: NextAuth v5, JWT, OAuth2 (Google, Meta, TikTok, LinkedIn), AES-256 Encryption
+- AI Integration: Claude API (Sonnet/Haiku), Gemini API, OpenAI API, LangChain, Tool/Function Calling
+- Testing: Vitest, Playwright E2E, TypeScript strict mode
+- DevOps: Docker, Railway, Render, Vercel, Netlify, Git/GitHub
+- Automation: n8n, GoHighLevel CRM, Vapi (Voice AI), Apify, Playwright Scraping
+
+## Experience
+
+### Full-Stack Developer & AI Engineer — Contract (Remote)
+Feb 2026 – Present
+- Independently built and launched Onelytics — a multi-tenant marketing analytics SaaS with OAuth integrations across 6 platforms (Google Analytics, Ads, Search Console, Meta, TikTok, LinkedIn), AES-256 token encryption, Redis caching, role-based workspace management, and AI-powered summaries via Claude API. Deployed on Railway.
+- Built Exchange Four, a full HR/personnel management platform with multi-stage approval workflows, role-based access (Applicant/HR/Executive), CRM sync via signed webhooks, automated document generation, and 13+ end-to-end Playwright test suites.
+- Built Compass Registered Agent, a client-facing LLC formation platform with Stripe checkout, document portal, and a stage-based ops workbench with bidirectional CRM sync.
+- Built a production SEO audit tool using FastAPI, async Playwright crawler, and Google PageSpeed API — auditing 200+ pages per run with JS-rendered SPA support, background job queue, and PDF/CSV export.
+- Designed a 14-workflow n8n automation portfolio covering AI marketing campaign pipelines, B2B lead generation (dual Apify scrapers + email verification), missed-call recovery, GoHighLevel CRM automation, and RAG agent pipelines.
+- Developed lead generation systems with dual Apify scrapers, email verification, phone-based deduplication, and Google Sheets export — deployed as production Apify actors.
+
+### Backend & Integration Engineer — Contract (Remote + On-site)
+Oct 2025 – Feb 2026
+- Built backend API infrastructure for voice AI systems using Vapi — dynamic conversation flows, intent detection, CRM action triggers, and missed-call recovery pipelines integrated with GoHighLevel.
+- Delivered client-facing automation systems connecting multiple third-party APIs and services, translating business requirements into production-ready technical solutions independently.
+- Built reusable integration templates and webhook-driven workflows reducing client onboarding time significantly.
+
+### Full-Stack Developer Intern — HighRadius
+Jan 2022 – Apr 2022
+- Developed and tested REST APIs using Spring Boot for a cloud-based B2B fintech platform.
+- Built reusable React components following design specifications, contributing to sprint reviews and feature delivery in an Agile team.
+
+## Projects
+
+### Compass Registered Agent — LLC Formation Platform
+- Live: https://compassregisteredagent.com
+- Tech: Next.js 14, TypeScript, PostgreSQL, Prisma, Stripe, NextAuth v5, Cloudflare R2, GoHighLevel, Railway
+- Full-stack client platform for a Florida registered agent service — LLC formation intake, Stripe checkout, customer portal, internal ops workbench, bidirectional GoHighLevel CRM sync, AES-256-GCM encryption, Resend transactional email, Cloudflare R2 document storage.
+
+### Exchange Four — HR & Personnel Management Platform
+- Live: https://exhange4hr-production.up.railway.app/login
+- Tech: Next.js 14, TypeScript, PostgreSQL, Prisma, NextAuth v5, GoHighLevel, Playwright, Railway
+- Full-stack HR platform with multi-stage approval workflows, role-based access (Applicant/HR/Executive), CRM sync via signed webhooks, automated document generation, 13+ Playwright test suites.
+
+### Collab Docs — Collaborative Document Editor
+- Live: https://collab-docs-production-866c.up.railway.app
+- Tech: Next.js, TypeScript, PostgreSQL, Prisma, TipTap, Vitest, Railway
+- Collaborative editor with rich text formatting, role-based sharing, version history, presence indicators, comment threads, Markdown/PDF export.
+
+### Research Intelligence System — Agentic Wiki
+- Live: https://agentic-wiki.onrender.com
+- Code: https://github.com/Kadyan25/agentic-wiki
+- Tech: Python, FastAPI, Claude API, Google Embeddings, RAG, PyMuPDF, Render
+- Multi-agent AI pipeline processing text, PDFs, URLs, images, CSVs through 7 agents into a cross-linked markdown knowledge base.
+
+### Inboxd — AI-First Universal Email Client
+- Live: https://inboxd-production-077c.up.railway.app
+- Code: https://github.com/Kadyan25/Inboxd
+- Tech: Next.js 14, TypeScript, PostgreSQL, Prisma, Claude API, Gmail REST API, IMAP, PWA, Railway
+- Unified inbox across Gmail, IMAP, Outlook. Claude Sonnet powers AI summaries, reply drafts, and priority triage. PWA with offline support. 80 Vitest unit tests + Playwright E2E.
+
+### Onelytics — Unified Marketing Analytics Dashboard
+- Live: https://onelytics-production-693f.up.railway.app
+- Code: https://github.com/Mohit02026/onelytics
+- Tech: Next.js 14, TypeScript, PostgreSQL, Prisma, Redis, Claude API, NextAuth, Railway
+- Multi-tenant SaaS connecting 6 ad/analytics platforms. Role-based workspace management, AES-256-GCM encrypted OAuth tokens, Redis caching.
+
+### AI Counsellor — University Admissions Platform
+- Live: https://ai-counsellor-umber.vercel.app
+- Code: https://github.com/Kadyan25/ai_counsellor
+- Tech: Spring Boot, Next.js, PostgreSQL, JWT, Docker, Gemini API, OpenRouter, Perplexity, Tailwind CSS v4
+- Agentic AI platform — AI performs real database operations via validated JSON tool calling. Multi-provider AI with automatic fallback.
+
+### Real-Time Chat Application
+- Live: https://chatapp-dylb.onrender.com
+- Code: https://github.com/Kadyan25/ChatApp
+- Tech: Spring Boot, React, WebSocket, Spring Security, MySQL, Docker, Render
+- Real-time chat with public rooms and private messaging, JWT auth, online status, persistent history.
+
+### SEO Audit Tool
+- Code: https://github.com/Kadyan25/Seo-audit
+- Tech: Python, FastAPI, Playwright, Async httpx, Docker, Google PageSpeed API, SQLite
+- Production-grade crawler auditing 200+ pages per run with background job queue, PDF/CSV reports, Docker deployment.
+
+## Education
+- B.Tech – Computer Science & Engineering, Chandigarh University, Mohali (2023)
+
+## Certifications
+- Coding Ninjas – Full Stack Web Development (2024-25)
+- Coding Ninjas – Java & Data Structures (2023-24)
+- Full-Stack Internship Certificate – HighRadius (2022)

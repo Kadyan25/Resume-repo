@@ -1,0 +1,133 @@
+{
+  "name": "Mohit Kadyan",
+  "title": "Full-Stack Developer & AI Engineer",
+  "location": "Rohtak, Haryana, India",
+  "openTo": "Remote & Delhi NCR",
+  "email": "19bcs1615@gmail.com",
+  "phone": "+91 7988334269",
+  "linkedin": "https://linkedin.com/in/mohit-kdyn",
+  "github": "https://github.com/Kadyan25",
+  "portfolio": "https://mohit-resume20.netlify.app",
+  "summary": "Full-Stack Developer with production experience shipping complete web applications — from backend APIs and database architecture to responsive frontends and cloud deployment. Independently built and launched multiple live SaaS products and client platforms. Experienced with modern TypeScript stack (Next.js, Prisma, PostgreSQL) and Java/Spring Boot backend systems. Integrates AI (Claude, Gemini) as a product feature. Practises thorough testing (Vitest, Playwright E2E) to catch bugs early and minimise production issues.",
+  "skills": {
+    "frontend": ["Next.js 14", "React.js", "TypeScript", "Tailwind CSS v4", "shadcn/ui", "PWA", "Service Workers"],
+    "backend": ["Java", "Spring Boot", "Python", "FastAPI", "Node.js", "REST APIs", "WebSockets", "Background Jobs"],
+    "databases": ["PostgreSQL", "MySQL", "Prisma ORM", "Redis", "SQLite", "Spring Data JPA"],
+    "authAndSecurity": ["NextAuth v5", "JWT", "OAuth2", "AES-256 Encryption"],
+    "aiIntegration": ["Claude API", "Gemini API", "OpenAI API", "LangChain", "Tool/Function Calling", "RAG"],
+    "testing": ["Vitest", "Playwright E2E", "TypeScript strict mode"],
+    "devops": ["Docker", "Railway", "Render", "Vercel", "Netlify", "Git/GitHub"],
+    "automation": ["n8n", "GoHighLevel CRM", "Vapi (Voice AI)", "Apify", "Playwright Scraping"]
+  },
+  "experience": [
+    {
+      "role": "Full-Stack Developer & AI Engineer",
+      "company": "Contract (Remote)",
+      "duration": "Feb 2026 – Present",
+      "highlights": [
+        "Built Onelytics — multi-tenant marketing analytics SaaS with OAuth integrations across 6 platforms, AES-256 encryption, Redis caching, AI summaries via Claude API",
+        "Built Exchange Four — HR platform with multi-stage approval workflows, role-based access, CRM sync, automated document generation, 13+ Playwright test suites",
+        "Built Compass Registered Agent — LLC formation platform with Stripe checkout, document portal, bidirectional GoHighLevel CRM sync",
+        "Built production SEO audit tool using FastAPI, async Playwright, auditing 200+ pages per run with background job queue and PDF/CSV export",
+        "Designed 14-workflow n8n automation portfolio covering AI marketing pipelines, B2B lead generation, RAG agent pipelines",
+        "Developed lead generation systems with dual Apify scrapers, email verification, Google Sheets export"
+      ]
+    },
+    {
+      "role": "Backend & Integration Engineer",
+      "company": "Contract (Remote + On-site)",
+      "duration": "Oct 2025 – Feb 2026",
+      "highlights": [
+        "Built backend for voice AI systems using Vapi — conversation flows, intent detection, CRM triggers, missed-call recovery with GoHighLevel",
+        "Delivered client-facing automation systems connecting multiple third-party APIs",
+        "Built reusable webhook-driven integration templates reducing client onboarding time"
+      ]
+    },
+    {
+      "role": "Full-Stack Developer Intern",
+      "company": "HighRadius",
+      "duration": "Jan 2022 – Apr 2022",
+      "highlights": [
+        "Developed REST APIs using Spring Boot for a B2B fintech platform",
+        "Built reusable React components in an Agile team"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Compass Registered Agent",
+      "description": "Full-stack LLC formation platform with Stripe checkout, document portal, ops workbench, bidirectional GoHighLevel CRM sync, AES-256-GCM encryption",
+      "tech": ["Next.js 14", "TypeScript", "PostgreSQL", "Prisma", "Stripe", "NextAuth v5", "Cloudflare R2", "GoHighLevel", "Railway"],
+      "liveUrl": "https://compassregisteredagent.com",
+      "codeUrl": ""
+    },
+    {
+      "name": "Exchange Four",
+      "description": "HR/personnel management platform with multi-stage approval workflows, role-based access, CRM sync via signed webhooks, automated document generation, 13+ Playwright test suites",
+      "tech": ["Next.js 14", "TypeScript", "PostgreSQL", "Prisma", "NextAuth v5", "GoHighLevel", "Playwright", "Railway"],
+      "liveUrl": "https://exhange4hr-production.up.railway.app/login",
+      "codeUrl": ""
+    },
+    {
+      "name": "Collab Docs",
+      "description": "Collaborative document editor with rich text formatting, role-based sharing, version history, presence indicators, comment threads, Markdown/PDF export",
+      "tech": ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "TipTap", "Vitest", "Railway"],
+      "liveUrl": "https://collab-docs-production-866c.up.railway.app",
+      "codeUrl": ""
+    },
+    {
+      "name": "Research Intelligence System — Agentic Wiki",
+      "description": "Multi-agent AI pipeline processing text, PDFs, URLs, images, CSVs through 7 agents (intake, extraction, RAG, reasoning, writing, linking, validation) into a cross-linked knowledge base",
+      "tech": ["Python", "FastAPI", "Claude API", "Google Embeddings", "RAG", "PyMuPDF", "Render"],
+      "liveUrl": "https://agentic-wiki.onrender.com",
+      "codeUrl": "https://github.com/Kadyan25/agentic-wiki"
+    },
+    {
+      "name": "Inboxd — AI-First Universal Email Client",
+      "description": "Unified inbox across Gmail, IMAP, Outlook. Claude Sonnet powers AI summaries, reply drafts, priority triage. PWA with offline support.",
+      "tech": ["Next.js 14", "TypeScript", "PostgreSQL", "Prisma", "Claude API", "Gmail REST API", "IMAP", "PWA", "Railway"],
+      "liveUrl": "https://inboxd-production-077c.up.railway.app",
+      "codeUrl": "https://github.com/Kadyan25/Inboxd"
+    },
+    {
+      "name": "Onelytics — Unified Marketing Analytics Dashboard",
+      "description": "Multi-tenant SaaS connecting 6 ad/analytics platforms with AI summaries, role-based workspace management, AES-256-GCM encrypted OAuth tokens, Redis caching",
+      "tech": ["Next.js 14", "TypeScript", "PostgreSQL", "Prisma", "Redis", "Claude API", "NextAuth", "Railway"],
+      "liveUrl": "https://onelytics-production-693f.up.railway.app",
+      "codeUrl": "https://github.com/Mohit02026/onelytics"
+    },
+    {
+      "name": "AI Counsellor — University Admissions Platform",
+      "description": "Agentic AI platform where AI performs real database operations via JSON tool calling. Multi-provider AI (Gemini, OpenRouter, Perplexity) with automatic fallback.",
+      "tech": ["Spring Boot", "Next.js", "PostgreSQL", "JWT", "Docker", "Gemini API", "OpenRouter", "Perplexity"],
+      "liveUrl": "https://ai-counsellor-umber.vercel.app",
+      "codeUrl": "https://github.com/Kadyan25/ai_counsellor"
+    },
+    {
+      "name": "Real-Time Chat Application",
+      "description": "Real-time chat with public rooms and private messaging, WebSocket, Spring Security JWT auth, online status indicators",
+      "tech": ["Spring Boot", "React", "WebSocket", "Spring Security", "MySQL", "Docker", "Render"],
+      "liveUrl": "https://chatapp-dylb.onrender.com",
+      "codeUrl": "https://github.com/Kadyan25/ChatApp"
+    },
+    {
+      "name": "SEO Audit Tool",
+      "description": "Production crawler auditing 200+ pages per run with background job queue, JS-rendered SPA support, PDF/CSV reports, Docker deployment",
+      "tech": ["Python", "FastAPI", "Playwright", "Docker", "Google PageSpeed API", "SQLite"],
+      "liveUrl": "",
+      "codeUrl": "https://github.com/Kadyan25/Seo-audit"
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech – Computer Science & Engineering",
+      "institute": "Chandigarh University, Mohali",
+      "year": "2023"
+    }
+  ],
+  "certifications": [
+    "Coding Ninjas – Full Stack Web Development (2024-25)",
+    "Coding Ninjas – Java & Data Structures (2023-24)",
+    "Full-Stack Internship Certificate – HighRadius (2022)"
+  ]
+}

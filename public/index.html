@@ -16,6 +16,45 @@
 
    <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/apple-touch-icon.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <!-- AI/LLM discovery -->
+    <link rel="alternate" type="text/plain" href="/llms.txt" title="LLM-readable resume" />
+    <link rel="alternate" type="application/json" href="/resume.json" title="Structured resume data" />
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfilePage",
+      "mainEntity": {
+        "@type": "Person",
+        "name": "Mohit Kadyan",
+        "jobTitle": "Full-Stack Developer & AI Engineer",
+        "email": "19bcs1615@gmail.com",
+        "telephone": "+91 7988334269",
+        "url": "https://mohit-resume20.netlify.app",
+        "sameAs": [
+          "https://linkedin.com/in/mohit-kdyn",
+          "https://github.com/Kadyan25"
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Rohtak",
+          "addressRegion": "Haryana",
+          "addressCountry": "IN"
+        },
+        "knowsAbout": [
+          "Next.js", "React", "TypeScript", "Java", "Spring Boot", "Python", "FastAPI",
+          "PostgreSQL", "Redis", "Prisma", "NextAuth", "Claude API", "Gemini API",
+          "RAG", "AI Agents", "n8n", "Docker", "Railway", "Playwright", "Vitest"
+        ],
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "Chandigarh University"
+        },
+        "description": "Full-Stack Developer with production experience shipping complete web applications. Independently built and launched multiple live SaaS products. Experienced with TypeScript, Next.js, Java/Spring Boot, Python/FastAPI, and AI integrations via Claude and Gemini APIs."
+      }
+    }
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
