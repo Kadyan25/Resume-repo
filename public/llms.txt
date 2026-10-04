@@ -45,6 +45,15 @@ Jan 2022 – Apr 2022
 
 ## Projects
 
+### Exchange Four SEO Engine — Autonomous AI-Search & SEO Agent System
+- Tech: Python, claude-agent-sdk, Supabase (Postgres), WordPress REST API, OpenSEO MCP, Railway
+- Autonomous, self-improving SEO and AI-search agent system that researches, writes, publishes, audits, and measures organic ranking/traffic impact on a schedule. 5-agent loop (Research/Content/Technical/Measure/Report) with deterministic orchestration around agentic judgment. Human approval gate only on irreversible actions, otherwise runs headless. MCP integration (OpenSEO) for SEO audits, Core Web Vitals, and Search Console data.
+
+### ORISO Platform — Open-Source Counseling Platform (Freelance Contributor)
+- Code: https://github.com/OpenResilienceInitiative
+- Tech: Java, Spring Boot, React, TypeScript, MongoDB, MariaDB, Keycloak, Kubernetes
+- Paid freelance contributor on a live, AGPLv3 multi-tenant platform used by roughly 5,000 social counselors in Germany. Delivered changes across an 11-repo polyglot microservice architecture spanning Java backends, React frontends, Keycloak SSO, and Kubernetes deployment.
+
 ### Compass Registered Agent — LLC Formation Platform
 - Live: https://compassregisteredagent.com
 - Tech: Next.js 14, TypeScript, PostgreSQL, Prisma, Stripe, NextAuth v5, Cloudflare R2, GoHighLevel, Railway

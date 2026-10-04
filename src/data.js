@@ -113,6 +113,40 @@ export const experience = [
 
 export const projects = [
   {
+    name: "Exchange Four SEO Engine — Autonomous AI-Search & SEO Agent System",
+    tech: [
+      "Python",
+      "claude-agent-sdk",
+      "Supabase (Postgres)",
+      "WordPress REST API",
+      "OpenSEO MCP",
+      "Railway"
+    ],
+    duration: "Live",
+    description:
+      "Autonomous, self-improving SEO and AI-search agent system — researches, writes, publishes, audits, and measures organic ranking/traffic impact on a schedule. 5-agent loop (Research/Content/Technical/Measure/Report) with deterministic orchestration around agentic judgment. Human approval gate only on irreversible actions — otherwise runs headless on a schedule. MCP integration (OpenSEO) for SEO audits, Core Web Vitals, and Search Console data.",
+    liveUrl: "",
+    codeUrl: ""
+  },
+  {
+    name: "ORISO Platform — Open-Source Counseling Platform (Freelance Contributor)",
+    tech: [
+      "Java",
+      "Spring Boot",
+      "React",
+      "TypeScript",
+      "MongoDB",
+      "MariaDB",
+      "Keycloak",
+      "Kubernetes"
+    ],
+    duration: "Open Source",
+    description:
+      "Paid freelance contributor on a live, AGPLv3 multi-tenant platform used by roughly 5,000 social counselors in Germany. Delivered changes across an 11-repo polyglot microservice architecture spanning Java backends, React frontends, Keycloak SSO, and Kubernetes deployment.",
+    liveUrl: "",
+    codeUrl: "https://github.com/OpenResilienceInitiative"
+  },
+  {
     name: "Compass Registered Agent — LLC Formation Platform",
     image: "compass.jpg",
     tech: [
